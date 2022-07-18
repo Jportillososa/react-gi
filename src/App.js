@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import BasicInfo from "./Components/Hard";
+// now it can be called like if it was an html element (kind of like a variable)
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BasicInfo></BasicInfo>
     </div>
+    //everything must go inside the div element or these tags <> </>
+    // the props go inside of the tags as if they were attributes!!!
   );
 }
 
 export default App;
+
+// This is a functions that can be called on in index.js file

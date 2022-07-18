@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.person-container {
+  border: 5px solid black;
+  display: grid;
+  gap: 10px;
+  gap: 1em;
+  margin-bottom: 5em;
+  text-align: center;
+  width: 40em;
+  height: 20em;
+}
